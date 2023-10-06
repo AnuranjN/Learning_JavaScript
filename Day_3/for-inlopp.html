@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id='doc'> </p>
+    <script>
+        var text=" ";
+        var person={fname:'Anuranj',lname:'N',Age:'21'};
+        var x;
+        for(x in person){
+            text+=person[x] + " ";
+        }
+        document.getElementById('doc').innerHTML=text;
+    </script>
+    
+</body>
+</html>

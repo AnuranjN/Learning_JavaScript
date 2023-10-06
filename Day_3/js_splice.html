@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="cars"></p>
+
+    <script>
+        var carz=['Benz','Volvo','Aston Martin','Porsche','Ford']
+        var bike=['BMW','KAWASAKI','AMG','YAMAHA','HONDA']
+        //carz.splice(2,0,"Acura","Amby");      splicing concept
+        //carz.sort();                          sorting and reversing
+        //carz.reverse();
+        var combine=carz.concat(bike);          //combining two arrays
+        document.getElementById('cars').innerHTML=combine.toString();
+    </script>
+</body>
+</html>
