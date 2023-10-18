@@ -1,0 +1,15 @@
+let myCar ={
+    Name: 'Mustang',
+    Engine: 'v8',
+    Year: 2010,
+    Adress:{
+        Country:'USA',
+        Company:'Ford Motorcorp'
+    }
+}
+
+let{Name:N,Engine:E,Year:Y,Adress:{Company:C}}= myCar
+console.log(N)
+console.log(E)
+console.log(Y)
+console.log(C)
