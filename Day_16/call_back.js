@@ -7,7 +7,7 @@ function printLastname(lastname){
     console.log(lastname)
 }
 
-printFirstname('Anuranj',printLastname)
+printFirstname('Anuranj',printLastname) //this is callback function
 
 
 
